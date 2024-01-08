@@ -1,0 +1,133 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* ============ */
+/* reuseable-code */
+/* ============ */
+section{
+    margin-top:120px;
+}
+.btn{
+    padding:18px 36px;
+    border:none;
+    border-radius: 5px;
+}
+.row{
+    width:1320px;
+    margin:0 auto;
+}
+/* ============ */
+/* bannerArea */
+/* ============ */
+.bannerArea section{
+    margin-top:50px;
+}
+.bannerRelative{
+    height:600px;
+    width:1320px;
+    position:relative;
+    background:radial-gradient(rgb(45, 52, 54,0.4),rgb(178, 190, 195,0.2)) ,url('../image/BannerImage.png');
+}
+.bannerTxtAbs{
+    position:absolute;
+    color:white;
+    font-family: 'Merriweather', serif;
+    text-align:center;
+    width:632px;
+    top:177px;
+    left:344px;
+}
+.bannerTxtAbs h4{
+    font-size:32px;
+    font-weight:400;
+}
+.bannerTxtAbs h1{
+    font-size:72px;
+    font-weight:900;
+    line-height:95px;
+}
+/* ============ */
+/* offerArea */
+/* ============ */
+.offerArea .row{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.offerArea .textBox{
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    margin-bottom:48px;
+}
+.offerArea h2{
+    font-size:88px;
+    font-weight:700;
+    color:crimson;
+    margin:48px 0 5px 0;
+}
+.offerArea h5{
+    font-size:24px;
+    font-weight:500;
+    color:crimson;
+}
+.offerArea h3{
+    font-size:48px;
+    font-weight:700;
+    color:#2c3e50;
+}
+.offerImg{
+    height:500px;
+    width:802.9px;
+}
+.offerImg img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+/* ============ */
+/* invitationArea */
+/* ============ */
+.invitationArea{
+    font-family: 'Inter', sans-serif;
+    color:#ecf0f1;
+}
+.invitationImg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background:linear-gradient(rgb(45, 52, 54,0.4),rgb(45, 52, 54,0.7)), url('../image/Vectorrr.png');
+    background-size:cover;
+    padding:126px 0 142px 123px;
+}
+.invitationArea h2{
+    font-family: 'Merriweather', serif;
+    font-weight:900;
+    font-size:64px;
+    line-height:88px;
+    letter-spacing: 7.04px;
+    width:642px;
+    text-transform:capitalize;
+}
+.invitationArea .textBox{
+    font-size:18px;
+    font-weight:400;
+    line-height:30px;
+    width:697px;
+    margin:24px 0 40px 0;
+}
+.invitationArea .btn{
+    font-size:20px;
+    font-weight:700;
+}
+.invitationYear{
+    height:464px;
+    width:319px;
+}
+.invitationYear img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
