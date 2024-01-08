@@ -277,3 +277,74 @@ section{
     font-size:50px;
     margin-top:15px;
 }
+/* ============ */
+/* contactArea */
+/* ============ */
+.contactArea .row{
+    background-color:rgb(248, 239, 186,0.5);
+    padding:80px 212px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+.contactArea .contactImg{
+    height:150px;
+    width:150px;
+}
+.contactArea .contactImg img{
+    height:100%;
+    width:100%;
+}
+.contactArea h2{
+    font-family: 'Merriweather', serif;
+    font-size:48px;
+    font-weight:900;
+    color:#474787;
+    margin:40px 0 22px 0;
+}
+.contactArea .textBox{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#576574;
+    line-height:32px;
+    text-align:center;
+    margin-bottom:48px;
+}
+.contactArea .contactForm{
+    position:relative;
+    height: 72px;
+    width: 648px;
+}
+.contactForm .inputField{
+    position:absolute;
+    height: 100%;
+    width:100%;
+}
+.contactForm .inputField input{
+    height:100%;
+    width:68%;
+    padding:25px 30px;
+    border-radius:30px 0 0 30px;
+    border:none;
+}
+.contactForm .inputField input[type="email"]::placeholder{
+    font-family:'Inter', sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    color:rgba(15, 123, 224);
+    padding: 25px 30px
+}
+.contactForm .btn{
+    position:absolute;
+    font-family:'Inter', sans-serif;
+    font-size:20px;
+    font-weight: 600;
+    right:0px;
+    height:100%;
+    width: 210px;
+    color: white;
+    background:crimson;
+    border-radius:0px 30px 30px 0px;
+}
