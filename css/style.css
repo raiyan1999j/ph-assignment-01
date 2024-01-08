@@ -3,6 +3,9 @@
     padding:0px;
     box-sizing:border-box;
 }
+body{
+    text-transform: capitalize;
+}
 /* ============ */
 /* reuseable-code */
 /* ============ */
@@ -109,7 +112,6 @@ section{
     line-height:88px;
     letter-spacing: 7.04px;
     width:642px;
-    text-transform:capitalize;
 }
 .invitationArea .textBox{
     font-size:18px;
@@ -138,7 +140,6 @@ section{
     display:flex;
     justify-content:space-between;
     font-family: 'Inter', sans-serif;
-    text-transform: capitalize;
 }
 .rewardBox div{
     display: flex;
@@ -202,4 +203,77 @@ section{
     width:100%;
     object-fit:contain;
     transform:translateX(-130px);
+}
+/* ============ */
+/* portfolioArea */
+/* ============ */
+.portfolioArea .row:nth-child(2){
+    margin-bottom:24px;
+}
+.portfolioArea h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color:#ff5252;
+}
+.portfolioArea h2{
+    font-family: 'Merriweather', serif;
+    font-size:48px;
+    font-weight:900;
+    color:#474787;
+    margin:16px 0 22px 0;
+}
+.portfolioArea .textBox{
+    font-family:'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#576574;
+    width:896px;
+    line-height:32px;
+    margin-bottom: 48px;
+}
+.portfolioArea .portfolioGift{
+    display: flex;
+    justify-content:space-between;
+}
+.portfolioArea .portfolioBox{
+    position:relative;
+    height:450px;
+    width:424px;
+    overflow:hidden;
+}
+.portfolioArea .portfolioImg{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:424px;
+    height:450px;
+}
+.portfolioImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.portfolioBox .imgInfo{
+    position:absolute;
+    top:-100%;
+    left:0px;
+    height:100%;
+    width:100%;
+    color:white;
+    text-align:center;
+    font-size:25px;
+    font-weight:900;
+    padding:27px 20px;
+    font-family:'Inter', sans-serif;
+    background:rgb(72, 219, 251,0.5);
+    transition:ease-in-out 0.5s;
+}
+.portfolioBox:hover .imgInfo{
+    top:50%;
+}
+.portfolioBox span{
+    display: block;
+    font-size:50px;
+    margin-top:15px;
 }
