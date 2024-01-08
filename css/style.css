@@ -5,12 +5,25 @@
 }
 body{
     text-transform: capitalize;
+    color:#2c3e50;
 }
 /* ============ */
 /* reuseable-code */
 /* ============ */
 section{
     margin-top:120px;
+}
+h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+h4{
+    font-size: 24px;
+    font-weight: 500;
+}
+.textBox{
+    font-size:20px;
+    font-weight:400;
 }
 .btn{
     padding:18px 36px;
@@ -31,11 +44,11 @@ section{
     height:600px;
     width:1320px;
     position:relative;
-    background:radial-gradient(rgb(45, 52, 54,0.4),rgb(178, 190, 195,0.2)) ,url('../image/BannerImage.png');
+    background:radial-gradient(rgb(44, 58, 71,0.6),rgb(53, 59, 72,0.1)) ,url('../image/BannerImage.png');
 }
 .bannerTxtAbs{
     position:absolute;
-    color:white;
+    color:#f5f6fa;
     font-family: 'Merriweather', serif;
     text-align:center;
     width:632px;
@@ -79,7 +92,6 @@ section{
 .offerArea h3{
     font-size:48px;
     font-weight:700;
-    color:#2c3e50;
 }
 .offerImg{
     height:500px;
@@ -107,7 +119,6 @@ section{
 }
 .invitationArea h2{
     font-family: 'Merriweather', serif;
-    font-weight:900;
     font-size:64px;
     line-height:88px;
     letter-spacing: 7.04px;
@@ -115,7 +126,6 @@ section{
 }
 .invitationArea .textBox{
     font-size:18px;
-    font-weight:400;
     line-height:30px;
     width:697px;
     margin:24px 0 40px 0;
@@ -123,6 +133,12 @@ section{
 .invitationArea .btn{
     font-size:20px;
     font-weight:700;
+    transition:ease-in 0.3s;
+}
+.invitationArea .btn:hover{
+    cursor: pointer;
+    background:#192a56;
+    color:#ecf0f1;
 }
 .invitationYear{
     height:464px;
@@ -157,16 +173,11 @@ section{
     transform:translateY(34px);
 }
 .rewardBox h4{
-    font-size:24px;
-    font-weight:500;
     color:#ff5252;
 }
 .rewardBox h2,
 .rewardBox div:nth-child(3) h2{
-    color:#474787;
-    font-size:48px;
     font-family: 'Merriweather', serif;
-    font-weight:900;
     margin:5px 0 22px 0;
 }
 .rewardBox div:nth-child(3) h2{
@@ -176,10 +187,7 @@ section{
     margin-bottom:5px;
 }
 .rewardBox .textBox{
-    font-size:20px;
-    font-weight:400;
     line-height:32px;
-    color:#576574;
     padding-left:3px;
 }
 .rewardImg{
@@ -212,22 +220,14 @@ section{
 }
 .portfolioArea h4{
     font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
     color:#ff5252;
 }
 .portfolioArea h2{
     font-family: 'Merriweather', serif;
-    font-size:48px;
-    font-weight:900;
-    color:#474787;
     margin:16px 0 22px 0;
 }
 .portfolioArea .textBox{
     font-family:'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color:#576574;
     width:896px;
     line-height:32px;
     margin-bottom: 48px;
@@ -260,7 +260,7 @@ section{
     left:0px;
     height:100%;
     width:100%;
-    color:white;
+    color:#f5f6fa;
     text-align:center;
     font-size:25px;
     font-weight:900;
@@ -298,16 +298,10 @@ section{
 }
 .contactArea h2{
     font-family: 'Merriweather', serif;
-    font-size:48px;
-    font-weight:900;
-    color:#474787;
     margin:40px 0 22px 0;
 }
 .contactArea .textBox{
     font-family:'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color:#576574;
     line-height:32px;
     text-align:center;
     margin-bottom:48px;
@@ -333,7 +327,6 @@ section{
     font-family:'Inter', sans-serif;
     font-size: 18px;
     font-weight:400;
-    color:rgba(15, 123, 224);
     padding: 25px 30px
 }
 .contactForm .btn{
@@ -344,9 +337,14 @@ section{
     right:0px;
     height:100%;
     width: 210px;
-    color: white;
+    color: #f5f6fa;
     background:crimson;
     border-radius:0px 30px 30px 0px;
+    transition: ease-in 0.3s;
+}
+.contactForm .btn:hover{
+    background:#ff5252;
+    cursor: pointer;
 }
 /* ============ */
 /* footerArea */
@@ -395,8 +393,20 @@ section{
     margin-top:48px;
     justify-content: center;
 }
-.footerArea .socialLink div{
+.footerArea .socialLink div {
+    height:64px;
+    width:64px;
     margin-right:24px;
+}
+.footerArea .socialLink div img{
+    height:100%;
+    width:100%;
+    object-fit:contain;
+    transition:ease-in 0.3s;
+}
+.footerArea .socialLink div:hover img{
+    height: 80%;
+    width: 80%;
 }
 .footerArea .socialLink div:last-child{
     margin-right:0px;
@@ -405,4 +415,10 @@ section{
     font-family:'Inter', sans-serif;
     font-size:24px;
     font-weight:500;
+}
+.footerArea .terms a{
+    transition:ease-in 0.3s;
+}
+.footerArea .terms a:hover{
+    color:#ff5252;
 }
